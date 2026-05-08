@@ -390,6 +390,9 @@ header {
     background: rgba(255, 255, 255, 0.1);
 }
 .contact-form textarea { resize: none; height: 150px; }
+#menu-icon {
+    display: none;
+}
 @media (max-width: 991px) {
             header { padding: 15px 5%; }
             .main { flex-direction: column-reverse; text-align: center; padding-top: 140px; }
