@@ -25,7 +25,6 @@ body {
     color: var(--text-white);
 }
 
-/* ================= HEADER ================= */
 header {
     background-color: var(--header-bg);
     backdrop-filter: blur(10px);
@@ -74,7 +73,6 @@ header {
 .navigation a:hover { color: var(--primary-blue); }
 .navigation a:hover::after { width: calc(100% - 30px); }
 
-/* ================= REVEAL ANIMATION (For All Sections) ================= */
 .reveal-section {
     opacity: 0;
     transform: translateY(50px) scale(0.95);
@@ -88,7 +86,6 @@ header {
     visibility: visible;
 }
 
-/* ================= TYPOGRAPHY & BUTTONS ================= */
 .section-title {
     font-size: 3.5rem;
     color: var(--text-white);
@@ -117,7 +114,6 @@ header {
 }
 .small-btn { padding: 10px 20px; font-size: 0.9em; margin-top: 15px; }
 
-/* ================= HERO SECTION ================= */
 .main {
     padding: 120px 10%;
     min-height: 100vh;
@@ -170,7 +166,6 @@ header {
     filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.4));
 }
 
-/* ================= ABOUT SECTION ================= */
 .about-section { padding: 100px 10%; }
 
 .about-container {
@@ -218,7 +213,6 @@ header {
     filter: blur(2px);
 }
 
-/* ================= SERVICES SECTION ================= */
 .services { padding: 100px 10%; }
 
 .services-container {
@@ -272,7 +266,6 @@ header {
     50% { transform: scale(1.1); }
 }
 
-/* ================= SKILLS SECTION ================= */
 .skills { padding: 80px 10%; background: rgba(0, 0, 0, 0.3); }
 
 .skills-container {
@@ -324,7 +317,6 @@ header {
     transform: rotate(10deg);
 }
 
-/* ================= PROJECTS SECTION ================= */
 .projects { padding: 100px 10%; }
 
 .projects-container {
@@ -357,7 +349,6 @@ header {
 .project-info h3 { font-size: 1.5rem; margin-bottom: 10px; color: var(--text-white); }
 .project-info p { color: var(--text-gray); font-size: 0.95rem; margin-bottom: 15px; line-height: 1.5; }
 
-/* ================= CONTACT SECTION ================= */
 .contact { padding: 100px 10%; background: rgba(0, 0, 0, 0.2); }
 
 .contact-container {
@@ -407,9 +398,8 @@ header {
     .img-frame { margin: 0 auto; }
 }
 
-/* Smart Phones */
 @media (max-width: 768px) {
-    .navigation { display: none; } /* Hide nav on mobile to keep it clean */
+    .navigation { display: none; } 
     .section-title { font-size: 2rem; }
     .contact-container { padding: 20px; }
     .hero-img { max-width: 300px; }
