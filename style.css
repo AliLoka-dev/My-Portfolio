@@ -405,28 +405,5 @@ header {
     .hero-img { max-width: 300px; }
 }
 
-#menu-icon {
-    font-size: 1.8rem;
-    color: var(--white);
-    cursor: pointer;
-    display: none; 
-}
 
-#menu-icon {
-    font-size: 2rem; 
-    color: var(--primary-blue); 
-    cursor: pointer;
-    display: none; 
-    z-index: 10001; 
-}
-
-@media (max-width: 768px) {
-    #menu-icon {
-        display: block;
-    }
-    .navigation.active {
-    right: 0 !important; 
-    display: flex !important;
-}
-}
 
