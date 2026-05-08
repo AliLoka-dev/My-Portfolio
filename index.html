@@ -20,7 +20,6 @@
         </nav>
     </header>
 
-    <!-- 1. HERO SECTION -->
     <section class="main">
         <div class="main-content">
             <h2>Hello, I'm Ali <br><span class="typing-text">Full Stack Developer</span></h2>
@@ -38,7 +37,6 @@
         </div>
     </section>
 
-    <!-- 2. ABOUT SECTION -->
     <section class="about-section" id="about">
         <div class="reveal-section">
             <div class="about-container">
@@ -59,7 +57,6 @@
         </div>
     </section>
 
-    <!-- 3. SERVICES SECTION -->
     <section class="services" id="services">
         <div class="reveal-section">
             <h2 class="section-title text-center">My <span>Services</span></h2>
@@ -86,7 +83,6 @@
         </div>
     </section>
 
-    <!-- 4. SKILLS SECTION -->
     <section class="skills" id="skills">
         <div class="reveal-section">
             <h2 class="section-title text-center">Technical <span>Skills</span></h2>
@@ -113,12 +109,11 @@
         </div>
     </section>
 
-    <!-- 5. PROJECTS SECTION -->
     <section class="projects" id="projects">
         <div class="reveal-section">
             <h2 class="section-title text-center">My <span>Projects</span></h2>
             <div class="projects-container">
-                <!-- Project 1 -->
+
                 <div class="project-card">
                     <div class="project-img">
                         <img src="Portfolio page.png" alt="Portfolio Project">
@@ -133,7 +128,6 @@
         </div>
     </section>
 
-    <!-- 6. CONTACT SECTION -->
     <section class="contact" id="contact">
         <div class="reveal-section">
             <h2 class="section-title text-center">Contact <span>Me</span></h2>
@@ -156,7 +150,6 @@
     </section>
 
     <script>
-        // Scroll Reveal Animation Logic
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
@@ -168,7 +161,7 @@
         }, { 
             threshold: 0.15 
         });
-
+        
         const revealSections = document.querySelectorAll('.reveal-section');
         revealSections.forEach((section) => observer.observe(section));
     </script>
