@@ -10,9 +10,7 @@
 <body>
 
     <header>
-        <a href="#" class="logo">Ali</a>
-        <i class="fas fa-bars" id="menu-icon"></i>
-        
+        <a href="#" class="logo">Ali</a>        
         <nav class="navigation">
             <a href="#about">About</a>
             <a href="#services">Services</a>
@@ -152,18 +150,7 @@
     </section>
 
     <script>
-        let menuIcon = document.querySelector('#menu-icon');
-        let navbar = document.querySelector('.navigation');
-
-        menuIcon.onclick = () => {
-            menuIcon.classList.toggle('fa-xmark'); 
-            navbar.classList.toggle('active');   
-        }
-
-        window.onscroll = () => {
-            menuIcon.classList.remove('fa-xmark');
-            navbar.classList.remove('active');
-        }
+        
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
