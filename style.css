@@ -405,18 +405,18 @@ header {
             #menu-icon { display: block; }
 
             .navigation {
-                position: absolute; top: 100%; right: -100%;
+                position: absolute; top: 100%; right: -100%; 
                 width: 260px; height: 100vh; background: var(--header-bg);
                 backdrop-filter: blur(20px); display: flex; flex-direction: column;
                 padding: 40px 30px; gap: 25px; transition: 0.5s ease;
                 border-left: 1px solid rgba(255,255,255,0.1);
             }
 
-            .navigation.active { right: 0; } 
+            .navigation.active { right: 0; }
 
             .navigation a { margin: 0; font-size: 1.2rem; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 10px; }
             .contact-container {
-                flex-direction: column;
+                flex-direction: column; 
                 padding: 25px;
                 text-align: center;
             }
@@ -425,6 +425,5 @@ header {
             
             .contact-form { width: 100%; }
         }
-
 
 
