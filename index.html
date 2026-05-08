@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Loka | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Ali</a>
+        <nav class="navigation">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section class="main">
+        <div class="main-content">
+            <h2>Hello, I'm Ali <br><span class="typing-text">Full Stack Developer</span></h2>
+            <h3>I Build Responsive & Professional Websites</h3>
+            <a href="#projects" class="main-btn">View My Works</a>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="img-content">
+            <img src="Me without background.png" alt="Ali Loka" class="My-pic">
+        </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section class="about-section" id="about">
+        <div class="reveal-section">
+            <div class="about-container">
+                <div class="about-text-content">
+                    <h2 class="section-title">About <span>Me</span></h2>
+                    <div class="description-card">
+                        <p>My name is Ali Yaser , I'm a student at Public Policy Information Systems Program and a <strong>Full Stack Developer</strong> I turn complex problems into elegant, functional websites.</p>
+                        <p>My focus is on clean code, modern UI/UX design, and ensuring every project I touch is built to the highest standards.</p>
+                    </div>
+                </div>
+                <div class="about-img-box">
+                    <div class="img-frame">
+                        <img src="My Picture.jpeg" alt="Ali About">
+                        <div class="frame-accent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="reveal-section">
+            <h2 class="section-title text-center">My <span>Services</span></h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building high-quality, custom websites with clean code and modern frameworks.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-layer-group"></i>
+                    <div class="card-header">
+                        <h3>Full Stack Solutions</h3>
+                        <span class="soon-badge">Soon</span>
+                    </div>
+                    <p>Developing both frontend and backend systems that work together seamlessly.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Ensuring your website looks perfect on all devices, from mobiles to desktops.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <div class="reveal-section">
+            <h2 class="section-title text-center">Technical <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-item"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+                <div class="skill-item"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+                <div class="skill-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                
+                <div class="skill-item soon-item">
+                    <i class="fa-brands fa-react"></i><span>React</span>
+                    <div class="soon-overlay">Soon</div>
+                </div>
+                <div class="skill-item soon-item">
+                    <i class="fa-brands fa-node-js"></i><span>Node.js</span>
+                    <div class="soon-overlay">Soon</div>
+                </div>
+                <div class="skill-item soon-item">
+                    <i class="fa-solid fa-database"></i><span>MongoDB</span>
+                    <div class="soon-overlay">Soon</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <div class="reveal-section">
+            <h2 class="section-title text-center">My <span>Projects</span></h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="Portfolio page.png" alt="Portfolio Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive portfolio built to master HTML, CSS, and scroll animations.</p>
+                        <a href="#" class="main-btn small-btn">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="reveal-section">
+            <h2 class="section-title text-center">Contact <span>Me</span></h2>
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h3>Let's Work Together!</h3>
+                    <p>If you have a project in mind or just want to say hi, feel free to send me a message.</p>
+                </div>
+                <!-- Formspree Integration -->
+                <form action="https://formspree.io/f/mgodlgbp" method="POST" class="contact-form">
+                    <div class="input-box">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                    </div>
+                    <textarea name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="main-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Scroll Reveal Animation Logic
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                } else {
+                    entry.target.classList.remove('active');
+                }
+            });
+        }, { 
+            threshold: 0.15 
+        });
+
+        const revealSections = document.querySelectorAll('.reveal-section');
+        revealSections.forEach((section) => observer.observe(section));
+    </script>
+</body>
+</html>
