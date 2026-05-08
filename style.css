@@ -424,5 +424,9 @@ header {
     #menu-icon {
         display: block;
     }
+    .navigation.active {
+    right: 0 !important; 
+    display: flex !important;
+}
 }
 
